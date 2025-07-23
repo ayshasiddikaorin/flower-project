@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Noto Serif", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/*  font-family: "Inter", sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+ header .navbar a{
+    font-size: 1.2rem;
+    padding: 0 1.5rem;
+    color: #666;
+    text-decoration: none;
+   
+}
+.navbar  .home{
+    color: #252432;
+}
+.navbar .shopabout {
+    color: #8987A1;
+}
+.navbar .cart{
+    color: #000000;
+}
+
+/* section 1 start */
+
+.content{
+    max-width: 1200px;
+    margin: auto;
+}
+ .banner{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center; 
+    /* margin: 14rem auto; */
+}
+.banner h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 15px 0;
+    font-family: "Noto Serif", serif; 
+ }
+ .banner p{
+     font-family: "Inter", sans-serif; 
+    margin: 15px 0;
+    max-width: 70%;
+ }
+ .banner-left{
+    padding-left: 45px;
+    flex: 1;
+}
+  
+.banner-right{
+    flex: 1;
+}
+/* section 1 end */
