@@ -56,6 +56,7 @@ header{
      font-family: "Inter", sans-serif; 
     margin: 15px 0;
     max-width: 70%;
+    color: #727272;
  }
  .banner-left{
     padding-left: 45px;
@@ -68,7 +69,7 @@ header{
 /* section 1 end */
 /* section 2 start */
 .contant-titel{
-    height: 100vh;
+    
     width: 100vw;
     /* background-color: aqua; */
 }
@@ -86,7 +87,8 @@ header{
 .contant-titel .Content2 p{
         
     font-family: "Inter", sans-serif; 
-    color: #000000;
+    
+    color: #727272;
     
 }
 
@@ -143,4 +145,37 @@ article h3{
     padding-bottom: 20px;
     font-weight: 700;
     color: #111111;
+}
+/* section 3 start */
+.Plants-Lover-Section{
+    width: 80%;
+    margin: auto;
+    gap: 100px;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ol, ul, menu {
+    list-style:disc;
+    
+}
+.Plants-Lover-Section h2{
+    font-family: "Noto Serif", serif;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+ul li{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+    color: #727272;
+}
+.Plants-Lover-Section .trusted-badge{
+   padding: 45px 42px;
+   margin-right: px;
 }
