@@ -36,13 +36,14 @@ header{
 /* section 1 start */
 
 .content{
-    max-width: 1200px;
+    width: 80vw;
     margin: auto;
 }
  .banner{
     /* display: flex; */
     justify-content: center;
     align-items: center; 
+    height: 85vh;
     /* margin: 14rem auto; */
 }
 .banner h1{
@@ -65,3 +66,81 @@ header{
     flex: 1;
 }
 /* section 1 end */
+/* section 2 start */
+.contant-titel{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: aqua; */
+}
+.contant-titel .Content2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contant-titel .Content2 h2{
+    font-family: "Noto Serif", serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.contant-titel .Content2 p{
+        
+    font-family: "Inter", sans-serif; 
+    color: #000000;
+    
+}
+
+/* card section */
+.container{
+    width: 80vw;
+    margin: auto;
+    padding-top: 33px;
+}
+.gridcss{
+    margin: 10px;
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr); */
+    gap: 30px;
+    align-items: center;
+
+}
+.gridcss > article{
+    /* background-color: rgb(236, 190, 144); */
+    border: none;
+    /* box-shadow: 2px 2px 6px 6px rgba(0, 0, 0, 0.3); */
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    text-align: center;
+    width: 250px;
+    transition: transform .3s;
+}
+.gridcss > article:hover{
+    transform: translate(5px);
+    box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
+}
+.gridcss > article img{
+    width: 100%;
+}
+
+.text button{
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    padding: 10px;
+    background: #E95A08;
+    border: 1px solid gray;
+    outline: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+article p{
+    font-family: "Inter", sans-serif;
+    padding-top: 20px;
+    color: #111111;
+}
+article h3{
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+    font-weight: 700;
+    color: #111111;
+}
